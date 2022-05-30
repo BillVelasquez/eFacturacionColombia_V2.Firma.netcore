@@ -1,7 +1,10 @@
 # eFacturacionColombia_V2.Firma (C#)
 
-[![version](https://img.shields.io/badge/version-3.0-blue.svg)](#) [![build](https://img.shields.io/badge/build-passing-brightgreen.svg)](#)
+Este fork ha sido creado por [Creativos Digitales S.A.S.](https://creativosdigitales.co/)  a partir del trabajo original
+de [Miguel Huertas](https://github.com/miguelhuertas/eFacturacionColombia_V2.Firma) (Politica de firma DIAN Colombia)
+y el usuario [newverdun](https://github.com/newverdun) (Firma Xades en .netcore)
 
+Este proyecto se publica bajo los mismo términos de licencia de cada uno de los proyectos originales sobre los cuales se basa.
 
 
 **eFacturacionColombia_V2.Firma** es un módulo desarrollado en C#, que permite firmar los documentos XML (facturas, notas de crédito/débito y eventos) que se presentan a la DIAN de Colombia para el proceso de facturación electrónica (versión Validación Previa).

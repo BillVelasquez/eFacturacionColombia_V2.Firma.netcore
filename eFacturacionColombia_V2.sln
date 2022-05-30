@@ -1,15 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2050
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eFacturacionColombia_V2.Firma", "eFacturacionColombia_V2.Firma\eFacturacionColombia_V2.Firma.csproj", "{50704E92-842F-45A7-B542-B01F25A63E95}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FirmaXadesNet45", "FirmaXadesNet45", "{77660193-0647-45FC-A9E8-F74E9638FEF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirmaXadesNet", "FirmaXadesNet45\FirmaXadesNet\FirmaXadesNet.csproj", "{84B87815-DD45-4C60-B343-C11D45847BDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirmaXadesNetCore", "FirmaXadesNet45\FirmaXadesNetCore\FirmaXadesNetCore.csproj", "{793C51D8-A910-427F-8241-8AE83580D549}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Xades", "FirmaXadesNet45\Microsoft.Xades\Microsoft.Xades.csproj", "{EE1DC57A-344A-4B0A-82CE-5FD328C14894}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eFacturacionColombia_V2.Firma", "eFacturacionColombia_V2.Firma\eFacturacionColombia_V2.Firma.csproj", "{23BA9C91-357F-4E6D-8F85-24DDED2C2517}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,25 +15,20 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{50704E92-842F-45A7-B542-B01F25A63E95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{50704E92-842F-45A7-B542-B01F25A63E95}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{50704E92-842F-45A7-B542-B01F25A63E95}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{50704E92-842F-45A7-B542-B01F25A63E95}.Release|Any CPU.Build.0 = Release|Any CPU
-		{84B87815-DD45-4C60-B343-C11D45847BDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{84B87815-DD45-4C60-B343-C11D45847BDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{84B87815-DD45-4C60-B343-C11D45847BDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{84B87815-DD45-4C60-B343-C11D45847BDF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EE1DC57A-344A-4B0A-82CE-5FD328C14894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EE1DC57A-344A-4B0A-82CE-5FD328C14894}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EE1DC57A-344A-4B0A-82CE-5FD328C14894}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EE1DC57A-344A-4B0A-82CE-5FD328C14894}.Release|Any CPU.Build.0 = Release|Any CPU
+		{793C51D8-A910-427F-8241-8AE83580D549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{793C51D8-A910-427F-8241-8AE83580D549}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{793C51D8-A910-427F-8241-8AE83580D549}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{793C51D8-A910-427F-8241-8AE83580D549}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23BA9C91-357F-4E6D-8F85-24DDED2C2517}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23BA9C91-357F-4E6D-8F85-24DDED2C2517}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23BA9C91-357F-4E6D-8F85-24DDED2C2517}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23BA9C91-357F-4E6D-8F85-24DDED2C2517}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{84B87815-DD45-4C60-B343-C11D45847BDF} = {77660193-0647-45FC-A9E8-F74E9638FEF1}
-		{EE1DC57A-344A-4B0A-82CE-5FD328C14894} = {77660193-0647-45FC-A9E8-F74E9638FEF1}
+		{793C51D8-A910-427F-8241-8AE83580D549} = {77660193-0647-45FC-A9E8-F74E9638FEF1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C26D4792-5B26-4E13-ADB0-F8C77BFA32EF}

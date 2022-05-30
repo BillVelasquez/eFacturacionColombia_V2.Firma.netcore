@@ -3,9 +3,9 @@ using System.IO;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
-using FirmaXadesNet;
-using FirmaXadesNet.Crypto;
-using FirmaXadesNet.Signature.Parameters;
+using FirmaXadesNetCore;
+using FirmaXadesNetCore.Crypto;
+using FirmaXadesNetCore.Signature.Parameters;
 
 namespace eFacturacionColombia_V2.Firma
 {
